@@ -34,9 +34,10 @@ requests per month
   - Doesn't happen now
   - Mailchimp will throttle us at 10 concurrent requests
   - Could bother our Lambda costs.
-    - Set maximum request rate limit in Lambda?
+    - Set maximum request rate limit in Lambda
 - What's going on with the user interface design?
   - Just work off what was discussed between Ramith, Jeremy, and Austin.
+- Make sure CloudWatch logs aren't retained too long
 
 ## TODO
 
