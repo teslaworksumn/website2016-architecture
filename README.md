@@ -41,3 +41,6 @@ requests per month
 ## TODO
 
 - Find if setting a request rate limit is possible in Lambda
+  - Not in Lambda, but in Gateway (which makes sense, since that's like half
+    the purpose of an api front). The FAQ uses the example of throttling at
+    1000 reqs/second, but we can probably adjust that quite a bit.
