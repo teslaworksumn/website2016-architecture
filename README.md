@@ -34,4 +34,8 @@ requests per month
   - Doesn't happen now
   - Mailchimp will throttle us at 10 concurrent requests
   - Could bother our Lambda costs.
-    - Set maximum request rate limit in Lambda? *TODO*
+    - Set maximum request rate limit in Lambda?
+
+## TODO
+
+- Find if setting a request rate limit is possible in Lambda
