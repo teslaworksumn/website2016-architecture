@@ -26,4 +26,4 @@ requests per month
   - $3.50 per 1,000,000 calls
     - Free 1,000,000 calls per month for 12 months
   - $0.09 per GB transferred out for first 10TB.
-  - Should amount to less than $0.01/month for our use case
+  - Expected cost: < $0.01/month
