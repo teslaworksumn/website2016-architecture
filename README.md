@@ -27,3 +27,11 @@ requests per month
     - Free 1,000,000 calls per month for 12 months
   - $0.09 per GB transferred out for first 10TB.
   - Expected cost: < $0.01/month
+
+## Concerns
+
+- Making sure we don't get spammed with Mailchimp requests
+  - Doesn't happen now
+  - Mailchimp will throttle us at 10 concurrent requests
+  - Could bother our Lambda costs.
+    - Set maximum request rate limit in Lambda? *TODO*
